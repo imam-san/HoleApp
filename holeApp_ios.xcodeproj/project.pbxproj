@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		269B78EA1CA4630A00E2319F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B78E91CA4630A00E2319F /* AppDelegate.swift */; };
+		269B78EC1CA4630A00E2319F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B78EB1CA4630A00E2319F /* ViewController.swift */; };
+		269B78EF1CA4630A00E2319F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269B78ED1CA4630A00E2319F /* Main.storyboard */; };
+		269B78F11CA4630A00E2319F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269B78F01CA4630A00E2319F /* Assets.xcassets */; };
+		269B78F41CA4630A00E2319F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269B78F21CA4630A00E2319F /* LaunchScreen.storyboard */; };
+		269B78FF1CA4630A00E2319F /* holeApp_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B78FE1CA4630A00E2319F /* holeApp_iosTests.swift */; };
+		269B790A1CA4630A00E2319F /* holeApp_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B79091CA4630A00E2319F /* holeApp_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		269B78FB1CA4630A00E2319F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269B78DE1CA4630A00E2319F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269B78E51CA4630A00E2319F;
+			remoteInfo = holeApp_ios;
+		};
+		269B79061CA4630A00E2319F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 269B78DE1CA4630A00E2319F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269B78E51CA4630A00E2319F;
+			remoteInfo = holeApp_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		269B78E61CA4630A00E2319F /* holeApp_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holeApp_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		269B78E91CA4630A00E2319F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		269B78EB1CA4630A00E2319F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		269B78EE1CA4630A00E2319F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		269B78F01CA4630A00E2319F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		269B78F31CA4630A00E2319F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		269B78F51CA4630A00E2319F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269B78FA1CA4630A00E2319F /* holeApp_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holeApp_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269B78FE1CA4630A00E2319F /* holeApp_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holeApp_iosTests.swift; sourceTree = "<group>"; };
+		269B79001CA4630A00E2319F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269B79051CA4630A00E2319F /* holeApp_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = holeApp_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		269B79091CA4630A00E2319F /* holeApp_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = holeApp_iosUITests.swift; sourceTree = "<group>"; };
+		269B790B1CA4630A00E2319F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		269B78E31CA4630A00E2319F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269B78F71CA4630A00E2319F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269B79021CA4630A00E2319F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		269B78DD1CA4630A00E2319F = {
+			isa = PBXGroup;
+			children = (
+				269B78E81CA4630A00E2319F /* holeApp_ios */,
+				269B78FD1CA4630A00E2319F /* holeApp_iosTests */,
+				269B79081CA4630A00E2319F /* holeApp_iosUITests */,
+				269B78E71CA4630A00E2319F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		269B78E71CA4630A00E2319F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				269B78E61CA4630A00E2319F /* holeApp_ios.app */,
+				269B78FA1CA4630A00E2319F /* holeApp_iosTests.xctest */,
+				269B79051CA4630A00E2319F /* holeApp_iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269B78E81CA4630A00E2319F /* holeApp_ios */ = {
+			isa = PBXGroup;
+			children = (
+				269B78E91CA4630A00E2319F /* AppDelegate.swift */,
+				269B78EB1CA4630A00E2319F /* ViewController.swift */,
+				269B78ED1CA4630A00E2319F /* Main.storyboard */,
+				269B78F01CA4630A00E2319F /* Assets.xcassets */,
+				269B78F21CA4630A00E2319F /* LaunchScreen.storyboard */,
+				269B78F51CA4630A00E2319F /* Info.plist */,
+			);
+			path = holeApp_ios;
+			sourceTree = "<group>";
+		};
+		269B78FD1CA4630A00E2319F /* holeApp_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				269B78FE1CA4630A00E2319F /* holeApp_iosTests.swift */,
+				269B79001CA4630A00E2319F /* Info.plist */,
+			);
+			path = holeApp_iosTests;
+			sourceTree = "<group>";
+		};
+		269B79081CA4630A00E2319F /* holeApp_iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				269B79091CA4630A00E2319F /* holeApp_iosUITests.swift */,
+				269B790B1CA4630A00E2319F /* Info.plist */,
+			);
+			path = holeApp_iosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		269B78E51CA4630A00E2319F /* holeApp_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269B790E1CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_ios" */;
+			buildPhases = (
+				269B78E21CA4630A00E2319F /* Sources */,
+				269B78E31CA4630A00E2319F /* Frameworks */,
+				269B78E41CA4630A00E2319F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = holeApp_ios;
+			productName = holeApp_ios;
+			productReference = 269B78E61CA4630A00E2319F /* holeApp_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		269B78F91CA4630A00E2319F /* holeApp_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269B79111CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_iosTests" */;
+			buildPhases = (
+				269B78F61CA4630A00E2319F /* Sources */,
+				269B78F71CA4630A00E2319F /* Frameworks */,
+				269B78F81CA4630A00E2319F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269B78FC1CA4630A00E2319F /* PBXTargetDependency */,
+			);
+			name = holeApp_iosTests;
+			productName = holeApp_iosTests;
+			productReference = 269B78FA1CA4630A00E2319F /* holeApp_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		269B79041CA4630A00E2319F /* holeApp_iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 269B79141CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_iosUITests" */;
+			buildPhases = (
+				269B79011CA4630A00E2319F /* Sources */,
+				269B79021CA4630A00E2319F /* Frameworks */,
+				269B79031CA4630A00E2319F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				269B79071CA4630A00E2319F /* PBXTargetDependency */,
+			);
+			name = holeApp_iosUITests;
+			productName = holeApp_iosUITests;
+			productReference = 269B79051CA4630A00E2319F /* holeApp_iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		269B78DE1CA4630A00E2319F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = imam;
+				TargetAttributes = {
+					269B78E51CA4630A00E2319F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 47JAT4ZEUX;
+					};
+					269B78F91CA4630A00E2319F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 47JAT4ZEUX;
+						TestTargetID = 269B78E51CA4630A00E2319F;
+					};
+					269B79041CA4630A00E2319F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 47JAT4ZEUX;
+						TestTargetID = 269B78E51CA4630A00E2319F;
+					};
+				};
+			};
+			buildConfigurationList = 269B78E11CA4630A00E2319F /* Build configuration list for PBXProject "holeApp_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 269B78DD1CA4630A00E2319F;
+			productRefGroup = 269B78E71CA4630A00E2319F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269B78E51CA4630A00E2319F /* holeApp_ios */,
+				269B78F91CA4630A00E2319F /* holeApp_iosTests */,
+				269B79041CA4630A00E2319F /* holeApp_iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		269B78E41CA4630A00E2319F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B78F41CA4630A00E2319F /* LaunchScreen.storyboard in Resources */,
+				269B78F11CA4630A00E2319F /* Assets.xcassets in Resources */,
+				269B78EF1CA4630A00E2319F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269B78F81CA4630A00E2319F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269B79031CA4630A00E2319F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		269B78E21CA4630A00E2319F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B78EC1CA4630A00E2319F /* ViewController.swift in Sources */,
+				269B78EA1CA4630A00E2319F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269B78F61CA4630A00E2319F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B78FF1CA4630A00E2319F /* holeApp_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269B79011CA4630A00E2319F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				269B790A1CA4630A00E2319F /* holeApp_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		269B78FC1CA4630A00E2319F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269B78E51CA4630A00E2319F /* holeApp_ios */;
+			targetProxy = 269B78FB1CA4630A00E2319F /* PBXContainerItemProxy */;
+		};
+		269B79071CA4630A00E2319F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 269B78E51CA4630A00E2319F /* holeApp_ios */;
+			targetProxy = 269B79061CA4630A00E2319F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		269B78ED1CA4630A00E2319F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269B78EE1CA4630A00E2319F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		269B78F21CA4630A00E2319F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				269B78F31CA4630A00E2319F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		269B790C1CA4630A00E2319F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		269B790D1CA4630A00E2319F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		269B790F1CA4630A00E2319F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = holeApp_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imam.id.holeApp-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		269B79101CA4630A00E2319F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = holeApp_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imam.id.holeApp-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		269B79121CA4630A00E2319F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = holeApp_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imam.id.holeApp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holeApp_ios.app/holeApp_ios";
+			};
+			name = Debug;
+		};
+		269B79131CA4630A00E2319F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = holeApp_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imam.id.holeApp-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/holeApp_ios.app/holeApp_ios";
+			};
+			name = Release;
+		};
+		269B79151CA4630A00E2319F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = holeApp_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imam.id.holeApp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = holeApp_ios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		269B79161CA4630A00E2319F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = holeApp_iosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "imam.id.holeApp-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = holeApp_ios;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		269B78E11CA4630A00E2319F /* Build configuration list for PBXProject "holeApp_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269B790C1CA4630A00E2319F /* Debug */,
+				269B790D1CA4630A00E2319F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		269B790E1CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269B790F1CA4630A00E2319F /* Debug */,
+				269B79101CA4630A00E2319F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		269B79111CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269B79121CA4630A00E2319F /* Debug */,
+				269B79131CA4630A00E2319F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		269B79141CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				269B79151CA4630A00E2319F /* Debug */,
+				269B79161CA4630A00E2319F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 269B78DE1CA4630A00E2319F /* Project object */;
+}
