@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2629947B1CAAE175006D8370 /* tableviewme.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2629947A1CAAE175006D8370 /* tableviewme.storyboard */; };
+		2629947D1CAAE1C6006D8370 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629947C1CAAE1C6006D8370 /* LoaderView.swift */; };
+		262994801CAAE85D006D8370 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2629947E1CAAE85D006D8370 /* DataTableViewCell.swift */; };
+		262994811CAAE85D006D8370 /* DataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2629947F1CAAE85D006D8370 /* DataTableViewCell.xib */; };
 		269B78EA1CA4630A00E2319F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B78E91CA4630A00E2319F /* AppDelegate.swift */; };
 		269B78EC1CA4630A00E2319F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269B78EB1CA4630A00E2319F /* ViewController.swift */; };
 		269B78EF1CA4630A00E2319F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269B78ED1CA4630A00E2319F /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2629947A1CAAE175006D8370 /* tableviewme.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = tableviewme.storyboard; sourceTree = "<group>"; };
+		2629947C1CAAE1C6006D8370 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		2629947E1CAAE85D006D8370 /* DataTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		2629947F1CAAE85D006D8370 /* DataTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataTableViewCell.xib; sourceTree = "<group>"; };
 		269B78E61CA4630A00E2319F /* holeApp_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = holeApp_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		269B78E91CA4630A00E2319F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		269B78EB1CA4630A00E2319F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,12 +105,16 @@
 		269B78E81CA4630A00E2319F /* holeApp_ios */ = {
 			isa = PBXGroup;
 			children = (
+				2629947C1CAAE1C6006D8370 /* LoaderView.swift */,
 				269B78E91CA4630A00E2319F /* AppDelegate.swift */,
 				269B78EB1CA4630A00E2319F /* ViewController.swift */,
 				269B78ED1CA4630A00E2319F /* Main.storyboard */,
 				269B78F01CA4630A00E2319F /* Assets.xcassets */,
 				269B78F21CA4630A00E2319F /* LaunchScreen.storyboard */,
 				269B78F51CA4630A00E2319F /* Info.plist */,
+				2629947A1CAAE175006D8370 /* tableviewme.storyboard */,
+				2629947E1CAAE85D006D8370 /* DataTableViewCell.swift */,
+				2629947F1CAAE85D006D8370 /* DataTableViewCell.xib */,
 			);
 			path = holeApp_ios;
 			sourceTree = "<group>";
@@ -232,8 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262994811CAAE85D006D8370 /* DataTableViewCell.xib in Resources */,
 				269B78F41CA4630A00E2319F /* LaunchScreen.storyboard in Resources */,
 				269B78F11CA4630A00E2319F /* Assets.xcassets in Resources */,
+				2629947B1CAAE175006D8370 /* tableviewme.storyboard in Resources */,
 				269B78EF1CA4630A00E2319F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +275,8 @@
 			files = (
 				269B78EC1CA4630A00E2319F /* ViewController.swift in Sources */,
 				269B78EA1CA4630A00E2319F /* AppDelegate.swift in Sources */,
+				2629947D1CAAE1C6006D8370 /* LoaderView.swift in Sources */,
+				262994801CAAE85D006D8370 /* DataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +501,7 @@
 				269B79101CA4630A00E2319F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		269B79111CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				269B79131CA4630A00E2319F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		269B79141CA4630A00E2319F /* Build configuration list for PBXNativeTarget "holeApp_iosUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +519,7 @@
 				269B79161CA4630A00E2319F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
